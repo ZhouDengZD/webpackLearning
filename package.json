@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ZhouDengZD/webpackLearning/issues"
   },
-  "homepage": "https://github.com/ZhouDengZD/webpackLearning#readme"
+  "homepage": "https://github.com/ZhouDengZD/webpackLearning#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "4.5.0"
+  }
 }
