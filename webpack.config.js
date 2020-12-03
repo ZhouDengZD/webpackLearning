@@ -14,7 +14,8 @@ module.exports = {
         rules: [
             {
                 test: /\.(js|mjs|jsx)$/,
-                exclude: /(node_modules|bower_components)/,
+                include: /src/, // 只转化src目录下
+                // exclude: /(node_modules|distCollection|mdCollection|webpack.configCollection)/, // 排除掉node_modules等文件夹，优化打包速度
                 use: {
                     loader: 'babel-loader',
                     options: {
